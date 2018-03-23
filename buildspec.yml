@@ -19,6 +19,8 @@ phases:
       # - command
   build:
     commands:
+      - git tag
+      - git branch --contains=HEAD
       - export
       # - command
       # - command
